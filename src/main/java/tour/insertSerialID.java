@@ -13,8 +13,7 @@ public class insertSerialID {
 	
 	public static void main(String args[]) throws IOException {
 
-		//CharStream input = CharStreams.fromFileName("C:\\Users\\newin\\eclipse-workspace\\hillssoft\\src\\main\\java\\tour\\Demo.java.txt");
-		CharStream input = CharStreams.fromFileName("files//Demo.java.txt");
+		CharStream input = CharStreams.fromFileName("files//tour//Demo.java.txt");
 		
 		JavaLexer lexer = new JavaLexer(input);
 		
