@@ -7,3 +7,7 @@
 
 - to use import in a lexer, the file must be placed in the imports folder.
 - (CommonLexerRule should be placed in the imports folder)
+
+chapter3 : starter
+
+chapter4 : tour

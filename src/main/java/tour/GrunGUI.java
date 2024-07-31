@@ -7,11 +7,12 @@ import java.util.List;
 
 import javax.print.PrintException;
 
-import org.antlr.v4.gui.TreeViewer;
 import org.antlr.v4.runtime.CharStream;
 import org.antlr.v4.runtime.CharStreams;
 import org.antlr.v4.runtime.CommonTokenStream;
 import org.antlr.v4.runtime.tree.ParseTree;
+
+import tool.TreeViewer;
 
 
 
@@ -34,7 +35,6 @@ public class GrunGUI {
 		System.out.println(ruleNames);
         
 		TreeViewer view = new TreeViewer(ruleNames, tree);
-        
         
         view.open();
         //view.save("D:\\Back\\abc.svg");

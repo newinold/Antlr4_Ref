@@ -13,7 +13,7 @@ public class ExtractInterfaceTool {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
-		CharStream input = CharStreams.fromFileName("files//Demo.java.txt");
+		CharStream input = CharStreams.fromFileName("files//tour//Demo.java.txt");
 		
 		JavaLexer lexer = new JavaLexer(input);
 		

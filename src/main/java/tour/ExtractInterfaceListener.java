@@ -16,7 +16,7 @@ public class ExtractInterfaceListener extends JavaBaseListener {
 	@Override
 	public void enterClassDeclaration(ClassDeclarationContext ctx) {
 		
-		System.out.println("interface /"+ctx.Identifier()+" {");
+		System.out.println("interface I"+ctx.Identifier()+" {");
 		super.enterClassDeclaration(ctx);
 	}
 	

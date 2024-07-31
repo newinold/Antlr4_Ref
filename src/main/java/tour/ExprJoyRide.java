@@ -12,7 +12,7 @@ public class ExprJoyRide {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		
-		CharStream input = CharStreams.fromFileName("C:\\\\Users\\\\newin\\\\eclipse-workspace\\\\hillssoft\\\\src\\\\main\\\\java\\\\tour\\\\t.expr");
+		CharStream input = CharStreams.fromFileName("files/tour/t.expr");
 		
 		ExprLexer lexer = new ExprLexer(input);
 		
